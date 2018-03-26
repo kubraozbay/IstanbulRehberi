@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kbrazbaykus.istanbulrehberi.CafeRestoran">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+        >
+
+        <Button
+            android:id="@+id/yoresel"
+            android:layout_width="170dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="5dp"
+           android:layout_marginTop="-15dp"
+            android:background="@drawable/yoresel"
+            android:fontFamily="casual"
+            android:text="@string/yoresel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/tatlici"
+            android:layout_width="170dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:background="@drawable/tatli"
+            android:text="@string/tatlici"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/balikci"
+            android:layout_width="170dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:background="@drawable/balik"
+            android:text="@string/balikci"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/kahveci"
+            android:layout_width="170dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:background="@drawable/kahve"
+            android:text="@string/kahveci"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
+</FrameLayout>

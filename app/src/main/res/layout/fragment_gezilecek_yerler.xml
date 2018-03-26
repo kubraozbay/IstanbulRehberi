@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kbrazbaykus.istanbulrehberi.GezilecekYerler">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/saray"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/saray"
+                android:fontFamily="casual"
+                android:text="@string/saray"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="28sp"
+                android:textColor="#fff"
+
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/park"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="casual"
+                android:background="@drawable/park"
+                android:text="@string/park"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="#ffffff"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/kule"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="casual"
+                android:background="@drawable/kule"
+                android:text="@string/kule"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="#ffffff"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+
+                android:id="@+id/cami"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="casual"
+                android:background="@drawable/cami"
+                android:text="@string/cami"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="#ffffff"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/muze"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="casual"
+                android:background="@drawable/muze"
+                android:text="@string/müze"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="#ffffff"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/kilise"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="casual"
+                android:background="@drawable/kilise"
+                android:text="@string/kilise"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="#ffffff"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kbrazbaykus.istanbulrehberi.AVM">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:id="@+id/relativeAVM"
+        >
+
+        <ListView
+            android:id="@+id/listeAVM"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:divider="@null"
+            />
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="@android:style/Widget.DeviceDefault.ProgressBar.Large"
+            android:layout_width="100dp"
+            android:progressDrawable="@color/toolbarColor"
+            android:layout_height="100dp"
+            android:layout_margin="160dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

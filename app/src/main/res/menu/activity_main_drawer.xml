@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+        android:id="@+id/nav_gezilecekYerler"
+        android:icon="@drawable/icon_gezilecek"
+        android:title="@string/gezilecekYerler" />
+
+
+        <item
+            android:id="@+id/nav_cafe"
+            android:icon="@drawable/food"
+            android:title="Cafe&amp;Restorant" />
+        <item
+            android:id="@+id/nav_avm"
+            android:icon="@drawable/shop"
+            android:title="@string/avm" />
+
+        <item
+            android:id="@+id/nav_tur"
+            android:icon="@drawable/icon_tur"
+            android:title="@string/tur" />
+        <item
+            android:id="@+id/nav_tarih"
+            android:icon="@drawable/history"
+            android:title="@string/tarih" />
+
+
+
+    </group>
+
+
+</menu>

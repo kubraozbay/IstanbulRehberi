@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kbrazbaykus.istanbulrehberi.IlkSayfa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/gezilecek"
+            android:background="@drawable/gezilecek"
+            android:layout_width="170dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/cardview_light_background"
+            android:fontFamily="casual"
+            android:text="@string/gezilecekYerler"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="26sp"
+            android:textStyle="bold"
+             />
+
+        <Button
+            android:id="@+id/cafe"
+            android:layout_width="170dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cafe"
+            android:fontFamily="casual"
+            android:text="@string/cafe"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/avmler"
+                android:layout_width="170dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="-15dp"
+                android:background="@drawable/avm"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="casual"
+                android:text="@string/avm"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tur"
+                android:layout_width="170dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tur"
+                android:fontFamily="casual"
+                android:text="@string/tur"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

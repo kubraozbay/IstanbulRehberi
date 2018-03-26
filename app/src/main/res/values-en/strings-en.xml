@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Istanbul Rehberim</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="cami">Mosques</string>
+    <string name="saray">Palaces</string>
+    <string name="müze">Museums</string>
+    <string name="kilise">Churches</string>
+    <string name="park">Parks</string>
+    <string name="tarih">Istanbul\'s History</string>
+    <string name="kule">Towers</string>
+    <string name="istanbulRehberim">Istanbul Guide</string>
+    <string name="gezilecekYerler">Places to Visit</string>
+    <string name="avm">Shopping Center</string>
+    <string name="yoresel">Regional Foods</string>
+    <string name="balikci">Fish Restaurant</string>
+    <string name="kahveci">Turkish Coffee</string>
+    <string name="tatlici">Patisseries</string>
+    <string name="giris">Entrance Fee: </string>
+    <string name="saat">Open-Close: </string>
+    <string name="slogan">Istanbul is easier now ...</string>
+    <string name="tur">Tours</string>
+
+    <string name="birgun">1. Day</string>
+    <string name="ikigun">2. Days</string>
+    <string name="ucgun">3. Days</string>
+    <string name="cafe">Cafe &amp; Restaurant</string>
+    <string name="haritadaBul">Find On The Map</string>
+    <string name="rota">Best Routes For İstanbul</string>
+    <string name="turBaslik">Topkapı Palace-Ayasofya Museum-Blue Mosque</string>
+
+</resources>

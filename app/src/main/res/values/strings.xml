@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Istanbul Rehberim</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="cami">Camiler</string>
+    <string name="saray">Saraylar</string>
+    <string name="müze">Müzeler</string>
+    <string name="kilise">Kiliseler</string>
+    <string name="park">Parklar</string>
+    <string name="tarih">İstanbul\'un Tarihi</string>
+    <string name="kule">Kuleler</string>
+    <string name="istanbulRehberim">İstanbul Rehberim</string>
+    <string name="gezilecekYerler">Gezilecek Yerler</string>
+    <string name="yoresel">Yöresel Yemekler</string>
+    <string name="balikci">Balıkçılar</string>
+    <string name="kahveci">Kahveciler</string>
+    <string name="tatlici">Tatlıcılar</string>
+    <string name="avm">Alışveriş Merkezleri</string>
+    <string name="slogan">İstanbul artık daha kolay...</string>
+    <string name="giris">Giriş Ücreti: </string>
+    <string name="saat">Açılış-Kapanış: </string>
+    <string name="tur">Turlar</string>
+    <string name="birgun">1. Gün</string>
+    <string name="ikigun">2. Gün</string>
+    <string name="ucgun">3. Gün</string>
+    <string name="cafe">Kafe &amp; Restoran</string>
+    <string name="haritadaBul">Haritada Bul</string>
+    <string name="rota">En İyi İstanbul Rotaları</string>
+    <string name="turBaslik">Topkapı Sarayı-Ayasofya Müzesi-Sultanahmet Camii</string>
+</resources>

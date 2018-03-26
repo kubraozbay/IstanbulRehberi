@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "92505911479",
+    "firebase_url": "https://istanbulrehberi-21909.firebaseio.com",
+    "project_id": "istanbulrehberi-21909",
+    "storage_bucket": "istanbulrehberi-21909.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92505911479:android:d222ee930022ce75",
+        "android_client_info": {
+          "package_name": "com.example.kbrazbaykus.istanbulrehberi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92505911479-dj7k7t988k0s2mkmm4crehoaq2ofgc0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kbrazbaykus.istanbulrehberi",
+            "certificate_hash": "3dfad329ab0ff90c42d394d841cc78f8307a4655"
+          }
+        },
+        {
+          "client_id": "92505911479-7p3lupb53oamp1l2gq83egsm6dljolah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0i72ZD7Fd1nya9s5a0eD8LPNa9UzQbgI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92505911479-7p3lupb53oamp1l2gq83egsm6dljolah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
